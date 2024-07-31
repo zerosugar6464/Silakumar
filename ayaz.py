@@ -1,6 +1,6 @@
 import random
 
-start_message = """__👋 Merhaba {} __
+start_message = """👋 Merhaba {} 
 
 __Ben {} __
 
