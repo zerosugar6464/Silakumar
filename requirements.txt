@@ -10,4 +10,3 @@ pymongo
 psutil
 emoji
 tglogging
-.
