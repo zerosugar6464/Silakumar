@@ -5,13 +5,13 @@ Kimse Bu Orospu Çocuğuna Para Yedirmesin.
 
 Sunucuda çalıştırma kodları;
 
-git clone repoismi
-cd repoismi
-install -R requirements.txt 
+- git clone repoismi
+- cd repoismi
+- install -R requirements.txt 
 
 Daha sonra screen s dosyanızı kurun.
 
-Screen -S Repoismi
+- screen -S Repoismi
 
 Python3 RoseTagger.py çalıştırın hayırlı olsun 🥰
 
