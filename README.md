@@ -14,3 +14,5 @@ Daha sonra screen s dosyanızı kurun.
 Screen -S Repoismi
 
 Python3 RoseTagger.py çalıştırın hayırlı olsun 🥰
+
+Telegram İletişim: @Blayzen
