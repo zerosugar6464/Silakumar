@@ -14,7 +14,7 @@ from typing import Tuple
 
 from random import shuffle
 import aiofiles
-from gtts import gTTS
+
 from typing import List, Tuple, Union
 import requests
 from pymongo import MongoClient
