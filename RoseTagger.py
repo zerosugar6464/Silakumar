@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__updated__ = "2024-07-21 13:41:39"
-
 # ~~~~~~~~~~~~~~~~~~~~~~~ RoseTagger ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import os  # noqa: F401
 import asyncio
@@ -16,7 +14,7 @@ from typing import Tuple
 
 from random import shuffle
 import aiofiles
-
+from gtts import gTTS
 from typing import List, Tuple, Union
 import requests
 from pymongo import MongoClient
@@ -58,7 +56,7 @@ BOT_TOKEN = os.environ.get("TOKEN", "7341893624:AAEagTeynYCUGQ4ckGHBglRLDCxYd36O
 
 BOT_ID = int(os.environ.get("BOT_ID", "7341893624"))  
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "Rose")  
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "acelya")  
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002182187594"))  
 OWNER_ID = 5901320319  # Sahip hesabın id'si
 
@@ -74,7 +72,7 @@ users_collection = db["users"]
 
 #-------------------------------------------------------------------------
 app = Client(
-    "RoseTagger", 
+    "acelya", 
     api_id=API_ID, 
     api_hash=API_HASH, 
     bot_token=BOT_TOKEN
@@ -87,6 +85,38 @@ rose_tagger = {}
 users = []
 
 reloadStatus = []
+
+async def set_commands(client):
+    private_commands = [
+        BotCommand("start", "Botu başlatır"),
+        BotCommand("yardim", "Yardım menüsünü açar"),
+    ]
+    group_commands = [
+        BotCommand("chatmode", "Chatmodunu açar kapatır"),
+        BotCommand("tag", "Tek tek etiketler"),
+        BotCommand("atag", "Sadece adminleri etiketler"),
+        BotCommand("utag", "5'li etiketler"),
+        BotCommand("etag", "Emoji ile etiketler"),
+        BotCommand("btag", "Bayrak ile etiketler"),
+        BotCommand("sorutag", "Sorularla etiketler"),
+        BotCommand("ktag", "Karakter ile etiketler"),
+        BotCommand("stag", "Sözlerle etiketler"),
+        BotCommand("eros", "Eros oku atar"),
+        BotCommand("slap", "Birini tokatlar"),
+        BotCommand("soz", "Rastgele bir söz gönderir"),
+        BotCommand("stop", "Etiketi durdurur"),
+        BotCommand("ping", "Sunucu gecikmesine bakın"),
+        BotCommand("id", "İstediğiniz kullanıcının idsini verir")
+        
+    ]
+    
+    
+    await client.set_bot_commands(private_commands, scope=BotCommandScopeAllPrivateChats())
+    
+    await client.set_bot_commands(group_commands, scope=BotCommandScopeAllGroupChats())
+
+
+
 
 def is_user_blocked(user_id):
     return blocked_collection.find_one({"user_id": user_id}) is not None
@@ -142,7 +172,7 @@ async def start(bot: Client, message: Message):
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
                 ],
                 [
-                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/YikilmayanChat"),
+                    InlineKeyboardButton("🗯 Destek", url=f""),
                     InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
                 ],
                 [
@@ -285,7 +315,7 @@ async def _start(bot: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗯 Kanal", url=f"https://t.me/goktuResmi"
+                        "🗯 Kanal", url=f""
                     ),
 
                     InlineKeyboardButton(
