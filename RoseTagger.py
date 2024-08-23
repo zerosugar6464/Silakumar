@@ -414,13 +414,26 @@ async def chatModeHandler(bot: Client, msg: Message):
         reply = random.choice(he)
         await asyncio.sleep(0.06)   
     
-    elif kontrol(["Merhaba"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(merhaba)
+    elif kontrol(["naber"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(naber)
         await asyncio.sleep(0.06)   
-                  
-           
-           
-    
+        
+    elif kontrol(["tm"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(tm)
+        await asyncio.sleep(0.06)        
+                 
+    elif kontrol(["nasılsın"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(nasılsın)
+        await asyncio.sleep(0.06)         
+         
+    elif kontrol(["naber"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(daim)
+        await asyncio.sleep(0.06)          
+         
+   elif kontrol(["daim"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(daim)
+        await asyncio.sleep(0.06)  
+        
     try:
         await msg.reply(reply)
     except Exception as e:
