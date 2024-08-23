@@ -285,7 +285,7 @@ async def _start(bot: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗯 Kanal", url=f"https://t.me/goktuResmi"
+                        "🗯 Kanal", url=f"https://t.me/AcelyaTicaret"
                     ),
 
                     InlineKeyboardButton(
@@ -1512,7 +1512,7 @@ Sebep : {message.text}
 
 
 # .stop komutu
-@app.on_message(filters.command("stop") & filters.group)
+@app.on_message(filters.command("etiketdur","etiketkapat","etiketkapa") & filters.group)
 async def stop(client, message):
     admins = []
     async for member in client.get_chat_members(message.chat.id, filter=ChatMembersFilter.ADMINISTRATORS):
