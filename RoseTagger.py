@@ -142,7 +142,7 @@ async def start(bot: Client, message: Message):
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
                 ],
                 [
-                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/YikilmayanChat"),
+                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/GeceExpress"),
                     InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
                 ],
                 [
