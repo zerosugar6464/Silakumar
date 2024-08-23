@@ -136,10 +136,6 @@ sahip = (
 "**Sahibime mi sesleniyorsun?**",
 )
 
-göt = (
-"**/mute 3m** 🤬",
-"**/ban** siktir git ",
-)
 
 naber = (
 "**İyidir senden?** 😁",
