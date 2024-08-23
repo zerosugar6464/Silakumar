@@ -13,7 +13,7 @@ import string
 import time
 import traceback
 from typing import Tuple
-
+from typing import Union
 from random import shuffle
 import aiofiles
 
@@ -384,7 +384,7 @@ async def chatModeHandler(bot: Client, msg: Message):
     def lower(text):
         return str(text.translate({ord("I"): ord("ı"), ord("İ"): ord("i")})).lower()
 
-    def kontrol(query: str | list, text: str) -> bool:
+    def kontrol(query: Union[str, list], text: str) -> bool:
         if isinstance(query, str):
             return query in text.split()
         elif isinstance(query, list):
