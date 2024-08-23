@@ -2,7 +2,7 @@ import random
 
 start_message = """**⚘ Selam {} **
 
-**Ben {} **
+**Etiket {} **
 
 »  **Görevim Gruplarda Sizleri Birçok Özelliğim İle Eğlendirmek.**
 
