@@ -418,9 +418,7 @@ async def chatModeHandler(bot: Client, msg: Message):
         reply = random.choice(naber)
         await asyncio.sleep(0.06)  
         
-    elif kontrol(["göt","orospu","oc","oç"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(göt)
-        await asyncio.sleep(0.06)  
+
          
     elif kontrol(["daim"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(daim)
