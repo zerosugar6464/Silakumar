@@ -283,15 +283,7 @@ async def _start(bot: Client, query: CallbackQuery):
                         "📚 Komutlar", callback_data="cvv"
                     ),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "🗯 Kanal", url=f"https://t.me/AcelyaTicaret"
-                    ),
-
-                    InlineKeyboardButton(
-                        "➕ Beni Grubuna Ekle" , url=f"https://t.me/{app.me.username}?startgroup=a"
-                    ),
-                ],
+                
                 [
                     InlineKeyboardButton(
                         "❤️‍🔥 Geliştirici", user_id=OWNER_ID
