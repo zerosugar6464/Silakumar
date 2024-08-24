@@ -1512,7 +1512,7 @@ Sebep : {message.text}
 
 
 # .stop komutu
-@app.on_message(filters.command("stop","etiketkapat","etiketkapa") & filters.group)
+@app.on_message(filters.command("stop") & filters.group)
 async def stop(client, message):
     admins = []
     async for member in client.get_chat_members(message.chat.id, filter=ChatMembersFilter.ADMINISTRATORS):
