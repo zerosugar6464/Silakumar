@@ -1530,24 +1530,7 @@ async def stop(client, message):
 
 #--------------------------------------------------------------------------------------------------
         
-@app.on_message(filters.command(["help", "yardim", "yardım"]) & filters.group)
-async def help(bot: Client, message: Message):
-    if is_user_blocked(message.from_user.id):
-        await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
-        return
-        
-    await message.reply_text(
-        "**📚 Komutlar Hakkında Bilgi Almak İçin alttaki butona tıklayın**",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Yardım ", url=f"https://t.me/{app.me.username}?cvv"
-                    ),
-                ],
-            ],
-        ),
-    )
+
     
         
 
