@@ -141,13 +141,7 @@ async def start(bot: Client, message: Message):
                 [
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
                 ],
-                [
-                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/GeceExpress"),
-                    InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
-                ],
-                [
-                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
-                ]
+                
             ]
         ),
         disable_web_page_preview=True,
