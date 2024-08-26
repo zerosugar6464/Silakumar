@@ -90,15 +90,6 @@ extra = """❄️  Extra Komutlarım :
 ➫  **/ping  –  Bot'un ping değerini gösterir.**
 """
 
-extra = """❄️  Extra Komutlarım : 
-
-➫  **/id  –  İstediğin kullanıncın İd'sini verir.**
-
-➫  **/info  –  İstediğiniz kullanıcının İnfosu'nu verir.**
-
-➫  **/ping  –  Bot'un ping değerini gösterir.**
-"""
-
 
 slm = (
 "**Sen nerdesin ya** 😂",
