@@ -165,6 +165,10 @@ iyi= (
 "**iyisin**",
 )
 
+sen= (
+"**iyi**",
+)
+
 tm = (
 "**Sana tamam** 😡",
 "**Tamam deme lan**",
