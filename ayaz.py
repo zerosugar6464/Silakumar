@@ -68,20 +68,26 @@ eglence = """ツ  **Eğlence komutlarım :**
 
 ➫  **/dart  –  Dart atar.**
 
-➫  **/slot  –  Şans slot'u çevirir.**
+➫  **/cash  –  Şans slot'u çevirir.**
 
-➫  **/futbol  –  Kaleye top atar.**
+➫  **/fcash  –  Kaleye top atar.**
+
+➫  **/bcash  –  Basket atar.**
 
 ➫  **/bowling  –  Bowling atar.**
 
 ➫  **/para  –  Rastgele bir para atın.**
 
 ➫  **/saka  –  Rastgele bir şaka gönderin.**
+"""
 
-➫  **/soz  –  Rastgele bir söz gönderin.** 
+extra = """❄️  Extra Komutlarım : 
 
-➫  **/tts  –  Bir metni sese çevirir.**
+➫  **/id  –  İstediğin kullanıncın İd'sini verir.**
 
+➫  **/info  –  İstediğiniz kullanıcının İnfosu'nu verir.**
+
+➫  **/ping  –  Bot'un ping değerini gösterir.**
 """
 
 extra = """❄️  Extra Komutlarım : 
