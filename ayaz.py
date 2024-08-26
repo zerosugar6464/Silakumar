@@ -159,6 +159,12 @@ nasılsın = (
 "**İyiyim şükür sen** 😂",
 )
 
+iyi= (
+"**Allah iyilik versin**",
+"**iyi**",
+"**iyisin**",
+)
+
 tm = (
 "**Sana tamam** 😡",
 "**Tamam deme lan**",
