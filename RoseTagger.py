@@ -2171,7 +2171,7 @@ async def monitor_group(client: Client, chat_member_updated: ChatMemberUpdated):
     if chat_member_updated.new_chat_member and chat_member_updated.new_chat_member.user.id == client.me.id:
         chat_id = chat_member_updated.chat.id
         if groups_collection.find_one({"group_id": chat_id, "blocked": True}):
-            await client.send_message(chat_id, "__ℹ️ Bu grup banlandı. Eğer bunun bir hata olduğunu düşünüyorsanız t.me/blayzen 'e bildirin.__")
+            await client.send_message(chat_id, "__ℹ️ Bu grup banlandı. Eğer bunun bir hata olduğunu düşünüyorsanız t.me/mad1boy  bildirin.__")
             await client.leave_chat(chat_id)
             
 
