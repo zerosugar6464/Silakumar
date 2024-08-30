@@ -430,15 +430,17 @@ sağol = (
 )
 
 amk = (
-"**Ne diyon amk?**",
-"**Sen kimsin lan**",
-"**Ne sövüyon lan**",
+"**Ne diyon **",
+"**Sen kimsin lan😡**",
+"**Ne sövüyon lan😡**",
 "**Küfür etme**",
 "**Tamam sus**",
-"**Ne saçmalıyorsun amk?**",
-"**Amk senin**",
-"**Bende senin**",
-"**Terbiyesiz**",
+"**Ne saçmalıyorsun **",
+"**küfür kötü birşey🙄**",
+"**Bende senin🤬**",
+"**Terbiyesiz🙄**"
+"**Ayıppp😡**",
+
 )
 
 yoruldum  = (
@@ -747,6 +749,7 @@ vallaha = (
 "**Valla olur**",
 "**Tamam**",
 "**Valla**",
+"**Bide bayıl ferihaa**",	
 )
 
 yo = (
