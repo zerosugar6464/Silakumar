@@ -2370,7 +2370,7 @@ emoji = (
 
 
 karakter = (
-    "/ban ",
+    "🌹 ",
     
 )
 
