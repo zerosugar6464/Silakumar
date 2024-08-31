@@ -21,7 +21,7 @@ from typing import List, Tuple, Union
 import requests
 from pymongo import MongoClient
 from pyrogram import Client, __version__, filters
-from pyrogram.enums import *
+from pyrogram.enums import 
 from pyrogram.errors import (
     FloodWait,
     InputUserDeactivated,
