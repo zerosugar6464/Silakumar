@@ -21,7 +21,7 @@ from typing import List, Tuple, Union
 import requests
 from pymongo import MongoClient
 from pyrogram import Client, __version__, filters
-from pyrogram.enums import 
+from pyrogram.enums import *
 from pyrogram.errors import (
     FloodWait,
     InputUserDeactivated,
@@ -52,11 +52,11 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-API_ID = int(os.environ.get("API_ID", "24054192"))
-API_HASH = os.environ.get("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
-BOT_TOKEN = os.environ.get("TOKEN", "7540507755:AAF-S7HEoOm7h_U3Q6Hd50d9KRMGTpjy90A")  
+API_ID = int(os.environ.get("API_ID", "28121536"))
+API_HASH = os.environ.get("API_HASH", "57d552d05f2a76244291d9eb330294c2")
+BOT_TOKEN = os.environ.get("TOKEN", "7090522217:AAGhGJl78uuDhOaEnCrR5-jVokpqZ2a844g")  
 
-BOT_ID = int(os.environ.get("BOT_ID", "7540507755"))  
+BOT_ID = int(os.environ.get("BOT_ID", "7090522217"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "özelliklerim")  
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002182187594"))  
@@ -65,7 +65,7 @@ OWNER_ID = 5901320319  # Sahip hesabın id'si
 
 
 #-------------------------------------------------------------------------
-mongo_client = MongoClient("mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+mongo_client = MongoClient("mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
 db = mongo_client["tagger_db"]
 blocked_collection = db["blocked"]   
 groups_collection = db["groups"]
@@ -388,8 +388,8 @@ async def chatModeHandler(bot: Client, msg: Message):
 
     reply = None
 
-    if text.startswith("acelya"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
-        reply = random.choice(acelya)
+    if text.startswith("gece"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
+        reply = random.choice(gece)
         await asyncio.sleep(0.06)
     
     elif kontrol(["selam", "slm", "sa", "selamlar", "selamm"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -1104,108 +1104,9 @@ Sebep : {message.text}
 💣 __Atlanılan Silinen Hesap Sayısı: {skipped_deleted}__
 """)
     
-#______________________________________# 
-
-@app.on_message(filters.command("gtag") & filters.group)
-async def gtag(client, message):
-    if is_user_blocked(message.from_user.id):
-        await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
-        return
-        
-    if message.chat.type == 'private':
-        await message.reply("❗ Bu komutu sadece gruplarda kullanabilirsiniz!")
-        return
-
-    admins = []
-    async for member in client.get_chat_members(message.chat.id, filter=ChatMembersFilter.ADMINISTRATORS):
-        admins.append(member.user.id)
-
-    if message.from_user.id not in admins:
-        await message.reply("❗ Bu komutu kullanmak için yönetici olmalısınız!")
-        return
-
-    args = message.command
-    if len(args) > 1:
-        msg_content = " ".join(args[1:])
-    elif message.reply_to_message:
-        msg_content = message.reply_to_message.text
-        if msg_content is None:
-            await message.reply("❗ Eski mesajı göremiyorum!")
-            return
-    else:
-        msg_content = ""
-
-    total_members = 0
-    async for member in client.get_chat_members(message.chat.id):
-        user = member.user
-        if not user.is_bot and not user.is_deleted:
-            total_members += 1
-    user = message.from_user
-    chat = message.chat
-    
-    await client.send_message(LOG_CHANNEL, f"""
-
-Etiket işlemi bildirimi.
-
-Kullanan : {user.mention} [`{user.id}`]
-Etiket Tipi : günaydın Tag
-
-Grup : {chat.title}
-Grup İD : `{chat.id}`
-
-Sebep : {message.text}
-"""
- )
-    num = 1
-
-    estimated_time = (total_members // num) * 5
-
-    start_msg = await message.reply(f"""
-🏷️ __Üye etiketleme işlemi başlıyor.__
-
-🎉 __Silinen hesapları ve botları atlayacak.__
-
-👥 __Toplam Etiketlenecek Üye Sayısı: {total_members}__
-⏳ __Tahmini Süre: {estimated_time // 60} dakika__
-""")
-    
-    rose_tagger[message.chat.id] = start_msg.id
-    nums = 1
-    usrnum = 0
-    skipped_bots = 0
-    skipped_deleted = 0
-    total_tagged = 0
-    usrtxt = ""
-    
-    async for member in client.get_chat_members(message.chat.id):
-        user = member.user
-        if user.is_bot:
-            skipped_bots += 1
-            continue
-        if user.is_deleted:
-            skipped_deleted += 1
-            continue
-        usrnum += 1
-        total_tagged += 1
-        usrtxt += f"[{random.choice(günaydın)}](tg://user?id={user.id})"
-        if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
-            return
-        if usrnum == nums:
-            await client.send_message(message.chat.id, f"{usrtxt}")
-            usrnum = 0
-            usrtxt = ""
-            await asyncio.sleep(5)
-
-    await client.send_message(message.chat.id, f"""
-🏷️ __Üye etiketleme işlemi tamamlandı.__
-
-👥 __Etiketlenen üye: {total_tagged}__
-🤖 __Atlanılan Bot Sayısı: {skipped_bots}__
-💣 __Atlanılan Silinen Hesap Sayısı: {skipped_deleted}__
-""")
     
 
-#_______________________________________#
+
 @app.on_message(filters.command("sorutag") & filters.group)
 async def sorutag(client, message):
     if is_user_blocked(message.from_user.id):
