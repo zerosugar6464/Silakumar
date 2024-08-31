@@ -430,17 +430,15 @@ sağol = (
 )
 
 amk = (
-"**Ne diyon **",
-"**Sen kimsin lan😡**",
-"**Ne sövüyon lan😡**",
+"**Ne diyon amk?**",
+"**Sen kimsin lan**",
+"**Ne sövüyon lan**",
 "**Küfür etme**",
 "**Tamam sus**",
-"**Ne saçmalıyorsun **",
-"**küfür kötü birşey🙄**",
-"**Bende senin🤬**",
-"**Terbiyesiz🙄**"
-"**Ayıppp😡**",
-
+"**Ne saçmalıyorsun amk?**",
+"**Amk senin**",
+"**Bende senin**",
+"**Terbiyesiz**",
 )
 
 yoruldum  = (
@@ -749,7 +747,6 @@ vallaha = (
 "**Valla olur**",
 "**Tamam**",
 "**Valla**",
-"**Bide bayıl ferihaa**",	
 )
 
 yo = (
@@ -2370,7 +2367,46 @@ emoji = (
 
 
 karakter = (
-    "🌹 ",
+    "Güneş doğudan doğmaz, yatağımda, yanımda yükselir. Günaydın gün ışığım!",
+
+    "Bugün yağmur yağıyor olabilir, ama senin sayende sadece güneşli gökyüzünü görüyorum. Her zaman günümü aydınlatacaksın. Günaydın! ",
+    " Şu an kalbim daha hızlı atmaya başladı. Diğer yarımın uyandığını hissediyorum. Günaydın sevgilim!",
+    "Sabah erkenden uyanmak, seni tanıyana kadar günün en nefret ettiğim kısmıydı. Şimdi ise her sabah seni görme umuduyla uyanıyorum. Günaydın sevgilim! ",
+    " Her zaman sabah duyduğun ilk ve gece duyduğunuz son ses olmak istiyorum. Günaydın!",
+    " Mevsim kış olsa bile, gülüşün kalbimdeki baharı uyandırıyor. Günaydın meleğim!",
+    " Akşam yatmadan önce ve sabah kalktığımda aklıma ilk gelen şey sensin. Günaydın!",
+    " Gece bitti. Sabah başladı. Şimdi uyanma ve sana sarılma zamanım geldi. Günaydın aşkım!",
+    " Öğleden sonraya kadar sana ulaşamayacağımı biliyorum ama yine de günaydın demek istedim.",
+    " 07:00’da kalkmak için alarmı 06:00’dan sonra her dakika ertelediğini biliyorum. O erteleme arasında bu mesajımı da göreceğine eminim. O yüzden bana hemen cevap ver. Günaydın!",
+    " Tarihteki en kısa korku hikayesi, bugünün Pazartesi sabahı olması. Günaydın dostum, işe yine geç kalma.",
+    "Tanrı uykuyu, şeytan ise alarmı yarattı diye söylenerek kalkacağını biliyorum. Günaydın! ",
+    "Sabah uyandığında kaprisli ve tembel olsan bile, hala seni çok seviyorum. Günaydın! ",
+    " Günün en sevdiğim kısmı sabah, çünkü gözlerimi her açtığımda o yakışıklı yüzünü görüyorum. Seni seviyorum. Günaydın!",
+    " Günaydın yakışıklı, harika bir gün geçir! Seni seviyorum!",
+    " Beni her zaman dünyanın en güzel kadınıymışım gibi hissettirdiğin için teşekkür ederim. Günaydın aşkım!",
+    "Sıcak bir gün doğuşundan daha güzel olan bir şey varsa, o da bizim dostluğumuzdur. Günaydın! ",
+    " Dünyanın sona erdiğini hayal etmek kolay. Ama en iyi arkadaşım olmadan bir gün geçirmeyi hayal etmek zor. Günaydın!",
+    "Annen geç kalkıyorsun diye sinirlenebilir, baban sana tembel serseri diyebilir. Ama ne kadar geç uyanırsan uyan, her zaman benim en iyi arkadaşım olacaksın. Günaydın! ",
+    "Sabah kahvemin cappuccino, latte veya mocha olup olmaması umrumda değil. En sevdiğim kahve, seninle paylaştığım kahve. Günaydın! ",
+    " Bu sabah uyandığında fazla sıcak mı hissettin? Nedeni seni hayallerimde sarmamdı. Günaydın!",
+    " Sana aşık olmak, her sabah erkenden uyanmaya değer… Günaydın canım!",
+    "Gözlerin mi doldu? İşler ters mi gidiyor? Unutma… Ben her zaman yanındayım… Günaydın canım! ",
+    "Tatlım, senin değişmeni asla istemeyeceğim çünkü sen olduğun gibi mükemmelsin. Harika bir gün geçir. Günaydın! ",
+    "Yeni bir güne seninle uyanmak gördüğüm en güzel rüya. En güzel sabahlar senin olsun, günaydın aşkım. ",
+    "Muhtemelen öğlene kadar yataktan çıkmayacağını biliyorum ama yine de sana günaydın demek istedim! Günaydın uykucu, günün çok güzel geçsin. ",
+    " Bu sabah büyülü bir şeyin başlangıcı olsun. Seni seviyorum, kendine benden bir kahve ısmarlamayı unutma. Günaydın!",
+    "Son zamanlarda her sabah seni hayal ediyorum. Her zaman gibi. Bu nasıl bir büyü? Günaydın gördüğüm en güzel büyücü! ",
+    " Günaydın, dün gece seni rüyamda gördüm. Seninle buluşmak ve rüyamda olanları anlatmak için sabırsızlanıyorum. Bir dakika… Sanırım rüyam böyle başlıyordu!",
+    "Sabahları sana günaydın diyebildiğim için seviyorum. Uyanır uyanmaz ilk iş sana mesaj atmak, güzel bir sabaha başlamanın garantisi! Günaydın canım! ",
+    "Sabah ilk düşüncemin sen olduğunu fark ettim. Bunca yıldan sonra, hala her zaman seni düşünüyorum. Günaydın sabaha doğan güneşim! ",
+    " Umarım şimdiye kadarki en güzel sabahı yaşıyorsundur, güneş ışığım. Günaydın!",
+    " Kahvemde şeker sevmiyorum çünkü senin sevgin onu başka hiçbir şeyin yapamayacağı şekilde tatlandırıyor. Seni çok özledim ve seni görmek için sabırsızlanıyorum. Günaydın!",
+    "Böyle tatlı bir arkadaşla harika bir sabah geçirmemek ne mümkün! Hayatımın tuzu biberi, günaydın! ",
+    "Kendinizi ne kadar şanslı sayarsan o kadar şanslı olursun derler. Benim sana günaydın dediğim günleri saymam yeter! Günaydın şansım! ",
+    
+   
+    
+    
     
 )
 
