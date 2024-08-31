@@ -1107,7 +1107,7 @@ Sebep : {message.text}
 #______________________________________# 
 
 @app.on_message(filters.command("gtag") & filters.group)
-async def günaydın(client, message):
+async def gtag (client, message):
     if is_user_blocked(message.from_user.id):
         await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
         return
@@ -1148,7 +1148,7 @@ async def günaydın(client, message):
 Etiket işlemi bildirimi.
 
 Kullanan : {user.mention} [`{user.id}`]
-Etiket Tipi : gtag Tag
+Etiket Tipi : g Tag
 
 Grup : {chat.title}
 Grup İD : `{chat.id}`
