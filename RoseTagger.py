@@ -1107,7 +1107,7 @@ Sebep : {message.text}
 #______________________________________# 
 
 @app.on_message(filters.command("gtag") & filters.group)
-async def gtag(client, message):
+async def günaydın(client, message):
     if is_user_blocked(message.from_user.id):
         await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
         return
