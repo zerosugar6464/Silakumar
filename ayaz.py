@@ -2379,7 +2379,32 @@ güntag = (
 
 
 #_________#
+gunaydin = (
+    "Günaydın ☺️",
+    "Gün aydı hadi sende uyan🌄",
+    "Sen daha uyanmadın mı? Günaydın ☺️",
+    "Uyansana Uykucu Güneş Doğdu 🌞",
+    "Üsküdarda sabahboldu kalksana 🧸",
+    "Horozlar ötmedi diye mi Uyuyorsun daha 😁",
+    "Güneş doğarken sizin ev karanlık kalıyor galiba daha uyanmadığına göre 😳",
+    "Ee Sabah Oldu sen yoksun ❓",
+    "Artık Uyanacak mısın 🤔",
+    "Kalk Kahvaltı hazırla sabah oldu 😂",
+    "Ya Uyansana seni bekliyorum 🤗",
+)
 
+iyigeceler = (
+    "Sana da iyi Gecelerr",
+    "İyi gecelerin olsun.",
+    "Gecenin karanlığı düştü iyi geceler.",
+    "Hayırlı geceler kardeş 🥱",
+    "Nasıl İyi mi geceler?",
+    "İyi akşamlar canım",
+    "Yeni mi gece oldu ya?",
+    "Gecenin yarısı olmuş iyi uykular 😁",
+)
+
+#____________#
 karakter = (
     "🌹 ",
     
