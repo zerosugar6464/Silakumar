@@ -2493,7 +2493,7 @@ iyigeceler = (
     "Dünyanın en güzel varlığına en güzel rüyaları diliyorum. Kendisini gibi güzel rüyalar görerek kendi güzelliğinin de ne olduğunu daha iyi anlaması dileğiyle.🥰",
     "Kalbim her zaman seni arıyor her geçen dakika ve dakikalar geçmek bilmiyor sensiz gecelerde. Bu yüzden kalbim her gece sana takılıp kalıyor.🥰",
     "Aşk güneşi batıyor ve yerine uzun, özlem dolu geceler geliyor. Geceleri aştığımızda sevgilim, her şey bizi daha mutlu edecek.
-🥰",
+  🥰",
     "Kaç gece daha böyle geçip gidecek, peki sen ne zaman geleceksin?🥰",
     "En güzel geceler seni düşündüğüm geceler oluyor çünkü bu gecelerin sonunda seni göreceğimi biliyorum.🥰",
     "Haydi artık bitsin şu her şeyin üzerini kaplayan gece, bir an önce doğsun güneş ve ben tekrar senin yüzünü görebileyim.🥰",
