@@ -2492,8 +2492,7 @@ iyigeceler = (
     "İyi uykular sevgilim, umarım rüyanda bir araya gelir ve bu ayrılığımızı en azından rüyanda bitirmiş oluruz.🥰",
     "Dünyanın en güzel varlığına en güzel rüyaları diliyorum. Kendisini gibi güzel rüyalar görerek kendi güzelliğinin de ne olduğunu daha iyi anlaması dileğiyle.🥰",
     "Kalbim her zaman seni arıyor her geçen dakika ve dakikalar geçmek bilmiyor sensiz gecelerde. Bu yüzden kalbim her gece sana takılıp kalıyor.🥰",
-    "Aşk güneşi batıyor ve yerine uzun, özlem dolu geceler geliyor. Geceleri aştığımızda sevgilim, her şey bizi daha mutlu edecek.
-  🥰",
+    "Aşk güneşi batıyor ve yerine uzun, özlem dolu geceler geliyor. Geceleri aştığımızda sevgilim, her şey bizi daha mutlu edecek. 🥰",
     "Kaç gece daha böyle geçip gidecek, peki sen ne zaman geleceksin?🥰",
     "En güzel geceler seni düşündüğüm geceler oluyor çünkü bu gecelerin sonunda seni göreceğimi biliyorum.🥰",
     "Haydi artık bitsin şu her şeyin üzerini kaplayan gece, bir an önce doğsun güneş ve ben tekrar senin yüzünü görebileyim.🥰",
@@ -2508,8 +2507,7 @@ iyigeceler = (
     "Geçen gece kalbime her an bir mızrak daha saplıyor ve akan kan aşkımızın adını yazıyor.🥰",
     "En güzel geceler her zaman seninle birlikte olsun güzel sevgilim. Sen çünkü her zaman her şeyin en iyisini hak ediyorsun.🥰",
     "Yalnızlığa sarılıp uyuyorum bu gece de ve sen yoksun sevgili! Ne zaman kovacaksın yalnızlığımı?🥰",
-    "Şimdi güzel gözlerini ve mis kokan saçlarını düşünerek uyumak üzereyim. Bir gün gelecek ve ben bu güzellikleri rüyalarda değil, gerçekten görmüş olacağım.
-🥰",
+    "Şimdi güzel gözlerini ve mis kokan saçlarını düşünerek uyumak üzereyim. Bir gün gelecek ve ben bu güzellikleri rüyalarda değil, gerçekten görmüş olacağım.🥰",
     "Gecenin karanlığını her zaman senin gülüşünü aklıma getirerek kovuyorum. Birden aydınlanıyor tüm gece ve tüm aydınlığın merkezi sen oluyorsun aniden.🥰",
     "Geceleri bağırıyorum uzaklara doğru, çıkıp gelsin sessizce diye. Duyuyor musun sevgilim sesimi? Nasıl rüzgarlar getiriyor sesimi sana?🥰",
     "Yastığa başımı koyduğumda ertesi güne başlamamı sağlayan tek şey senin varlığındır. Ben seninle uykuya dalıyorum, senin varlığında uykudan çıkıyorum.🥰",
