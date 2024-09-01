@@ -1092,7 +1092,7 @@ soz = (
     "𝑆𝑎𝑣𝑎ş𝑚𝑎𝑦ı 𝑏ı𝑟𝑎𝑘ı𝑦𝑜𝑟𝑢𝑚 𝑏𝑢𝑛𝑢 𝑣𝑒𝑑𝑎 𝑠𝑎𝑦",
 )
 
-soru = (
+güntag = (
     "Asansörde hiç gizlicene osurdun mu? 🙄",
     "Bugüne kadar okuduğun en güzel kitap hangisiydi?🤓",
     "Çıplak ellerini kullanarak dondurma yiyebilir misin? 🙄",
