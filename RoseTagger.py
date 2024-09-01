@@ -1206,8 +1206,8 @@ Sebep : {message.text}
 #___________________#
    #günaydın#
 #_______________#    
-@app.on_message(filters.command("güntag") & filters.group)
-async def güntag(client, message):
+@app.on_message(filters.command("guntag") & filters.group)
+async def guntag(client, message):
     if is_user_blocked(message.from_user.id):
         await message.reply("Üzgünüm, bu komutu kullanma yetkiniz engellendi. 🚫")
         return
@@ -1248,7 +1248,7 @@ async def güntag(client, message):
 Etiket işlemi bildirimi.
 
 Kullanan : {user.mention} [{user.id}]
-Etiket Tipi : gün Tag
+Etiket Tipi : gun Tag
 
 Grup : {chat.title}
 Grup İD : {chat.id}
