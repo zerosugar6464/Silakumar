@@ -2388,7 +2388,7 @@ gün = (
     "Artık Uyanacak mısın 🤔",
     "Kalk Kahvaltı hazırla sabah oldu 😂",
     "Ya Uyansana seni bekliyorum 🤗",
-    "Güneş doğudan doğmaz yatağımda yanımda yükselir Günaydın gün ışığım!",
+    
 
 
      
