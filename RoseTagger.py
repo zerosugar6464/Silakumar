@@ -1104,10 +1104,10 @@ Sebep : {message.text}
 💣 __Atlanılan Silinen Hesap Sayısı: {skipped_deleted}__
 """)
 #_______________#    
-@app.on_message(filters.command("güntag") & filters.group)
-async def güntag(client, message):
+@app.on_message(filters.command("igtag") & filters.group)
+async def igtag(client, message):
     if is_user_blocked(message.from_user.id):
-        await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
+        await message.reply("Üzgünüm, bu komutu kullanma yetkiniz engellendi. 🚫")
         return
         
     if message.chat.type == 'private':
@@ -1145,11 +1145,11 @@ async def güntag(client, message):
 
 Etiket işlemi bildirimi.
 
-Kullanan : {user.mention} [`{user.id}`]
-Etiket Tipi : güntag Tag
+Kullanan : {user.mention} [{user.id}]
+Etiket Tipi : iyigeceler Tag
 
 Grup : {chat.title}
-Grup İD : `{chat.id}`
+Grup İD : {chat.id}
 
 Sebep : {message.text}
 """
@@ -1159,12 +1159,12 @@ Sebep : {message.text}
     estimated_time = (total_members // num) * 5
 
     start_msg = await message.reply(f"""
-🏷️ __Üye etiketleme işlemi başlıyor.__
+🏷️ Üye etiketleme işlemi başlıyor.
 
-🎉 __Silinen hesapları ve botları atlayacak.__
+🎉 Silinen hesapları ve botları atlayacak.
 
-👥 __Toplam Etiketlenecek Üye Sayısı: {total_members}__
-⏳ __Tahmini Süre: {estimated_time // 60} dakika__
+👥 Toplam Etiketlenecek Üye Sayısı: {total_members}
+⏳ Tahmini Süre: {estimated_time // 60} dakika
 """)
     
     rose_tagger[message.chat.id] = start_msg.id
@@ -1185,7 +1185,7 @@ Sebep : {message.text}
             continue
         usrnum += 1
         total_tagged += 1
-        usrtxt += f"[{random.choice(güntag)}](tg://user?id={user.id})"
+        usrtxt += f"[{random.choice(iyigeceler)}](tg://user?id={user.id})"
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
@@ -1195,12 +1195,12 @@ Sebep : {message.text}
             await asyncio.sleep(5)
 
     await client.send_message(message.chat.id, f"""
-🏷️ __Üye etiketleme işlemi tamamlandı.__
+🏷️ Üye etiketleme işlemi tamamlandı.
 
-👥 __Etiketlenen üye: {total_tagged}__
-🤖 __Atlanılan Bot Sayısı: {skipped_bots}__
-💣 __Atlanılan Silinen Hesap Sayısı: {skipped_deleted}__
-""")    
+👥 Etiketlenen üye: {total_tagged}
+🤖 Atlanılan Bot Sayısı: {skipped_bots}
+💣 Atlanılan Silinen Hesap Sayısı: {skipped_deleted}
+""")
 
 #___________________#
 @app.on_message(filters.command("sorutag") & filters.group)
