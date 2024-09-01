@@ -2370,7 +2370,7 @@ emoji = (
 #______#
 
 güntag = (
-"Asansörde hiç gizlicene osurdun mu? 🙄",
+"🙄",
    
     
     
