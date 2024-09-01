@@ -1092,7 +1092,7 @@ soz = (
     "𝑆𝑎𝑣𝑎ş𝑚𝑎𝑦ı 𝑏ı𝑟𝑎𝑘ı𝑦𝑜𝑟𝑢𝑚 𝑏𝑢𝑛𝑢 𝑣𝑒𝑑𝑎 𝑠𝑎𝑦",
 )
 
-güntag = (
+soru = (
     "Asansörde hiç gizlicene osurdun mu? 🙄",
     "Bugüne kadar okuduğun en güzel kitap hangisiydi?🤓",
     "Çıplak ellerini kullanarak dondurma yiyebilir misin? 🙄",
@@ -2389,6 +2389,22 @@ gün = (
     "Kalk Kahvaltı hazırla sabah oldu 😂",
     "Ya Uyansana seni bekliyorum 🤗",
     
+    
+    " rüyanın gerçeğe dönüştüğü en tatlı halisin sevgilim. Günaydın🤗",
+    "Günaydın! Güneş gibisin ay gibi geceyi de gündüzü de aydınlatıyorsun ışık gibi parlıyorsun ışık yüzlüm🤗",
+    "Her sabah uyandığım da yaşamaktan önce sen geliyorsun aklıma. Günaydın tatlım🤗",
+    "Kalbin hangi sevgi için çarpıyorsa, yeni doğan günün güneşi seni ona kavuştursun Günaydın🤗",
+    "Güzelliğin bir rüya gibi, gözlerin bir rüyanın en muhteşem eseri, bugün de rüyalarımı süsledin, seninle güne merhaba dedim günaydın sevgilim.🤗",
+    "Sevgi ne güze sözdür dilinde değil gönlünde olanlara Hayırlı sabahlar🤗",
+    "Yeni bir gün yepyeni güzellikler getirsin sana🤗",
+    "Günaydın papatya demetim, gül sepetim, aşkımın son adresi eşsiz cennetim 🤗",
+    "Hayat boştu bir zamanlar, uyandım sen varsın şimdi sığmıyor hiçbir yere bu hayat. Günaydın🤗",
+    "Hayat boştur loo kalkma kalkma 🤪",
+    "Adını dağlara yazdım TOKİ oraya da konut yaptı. Neyse günaydın🤗",
+    "Bak işte bir gün daha yaşlandın Sen hala yatıyorsun, uyumakla ömrün bitti gitti be hadi bir kalk artık ya… Günaydın🤗",
+    "Gece sabahlamak niyetiyle en derin muhabbete girişip uyuyakalan oha uyumuş kalmışım sabah olmuş ya diyen dostum günaydın🤗",
+    "İki çeşit uyku vardır 1 Gece gelmeyenler 2 Sabah gitmeyenler ne olacak bizim halimiz Hepinize Günaydın🤗",
+
 
 
      
