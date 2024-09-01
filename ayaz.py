@@ -2369,17 +2369,14 @@ emoji = (
 )
 #______#
 
-güntag = (
-"🙄",
-   
     
     
     
-)
+
 
 
 #_________#
-gunaydin = (
+gün = (
     "Günaydın ☺️",
     "Gün aydı hadi sende uyan🌄",
     "Sen daha uyanmadın mı? Günaydın ☺️",
