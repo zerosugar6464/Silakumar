@@ -1248,7 +1248,7 @@ async def guntag(client, message):
 Etiket işlemi bildirimi.
 
 Kullanan : {user.mention} [{user.id}]
-Etiket Tipi : gün Tag
+Etiket Tipi : gun Tag
 
 Grup : {chat.title}
 Grup İD : {chat.id}
