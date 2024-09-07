@@ -279,8 +279,7 @@ async def _start(bot: Client, query: CallbackQuery):
                 ],
                 
                 [
-                    InlineKeyboardButton(
-                        "❤️‍🔥 Geliştirici", user_id=OWNER_ID
+                    
                     ),
                 ]
             ],
@@ -396,6 +395,7 @@ async def chatModeHandler(bot: Client, msg: Message):
         reply = random.choice(slm)
         await asyncio.sleep(0.06)   
         #Bot chatmode komutları
+        
     elif kontrol(["sahip"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(sahip)
         await asyncio.sleep(0.06)   
@@ -406,6 +406,10 @@ async def chatModeHandler(bot: Client, msg: Message):
 
     elif kontrol(["sen"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(sen)
+        await asyncio.sleep(0.06)  
+        
+    elif kontrol(["öner","şarkı","sarkı"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(şarkı)
         await asyncio.sleep(0.06)  
         
 
@@ -489,7 +493,10 @@ async def chatModeHandler(bot: Client, msg: Message):
     elif kontrol(["sohbetler"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(sohbetler)
         await asyncio.sleep(0.06)        
-               
+    
+    elif kontrol(["renk"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(renk)
+        await asyncio.sleep(0.06)                             
     elif kontrol(["konuşalım","konusalım"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(konuşalım)
         await asyncio.sleep(0.06)         
