@@ -1214,97 +1214,48 @@ Sebep : {message.text}
 #___________________#
     #sarkı öner#
  #_______________#
- 
-@app.on_message(filters.command("sarki") & filters.group)
-async def sarki(client, message):
+@app.on_message(filters.command(["sarki"]) & filters.group)
+async def sarki(bot: Client, message: Message):
     if is_user_blocked(message.from_user.id):
         await message.reply("Üzgünüm, bu komutu kullanma yetkiniz engellendi. 🚫")
         return
         
-    if message.chat.type == 'private':
-        await message.reply("❗ Bu komutu sadece gruplarda kullanabilirsiniz!")
-        return
-
-    admins = []
-    async for member in client.get_chat_members(message.chat.id, filter=ChatMembersFilter.ADMINISTRATORS):
-        admins.append(member.user.id)
-
-    if message.from_user.id not in admins:
-        await message.reply("❗ Bu komutu kullanmak için yönetici olmalısınız!")
-        return
-
-    args = message.command
-    if len(args) > 1:
-        msg_content = " ".join(args[1:])
-    elif message.reply_to_message:
-        msg_content = message.reply_to_message.text
-        if msg_content is None:
-            await message.reply("❗ Eski mesajı göremiyorum!")
-            return
-    else:
-        msg_content = ""
-
-    total_members = 0
-    async for member in client.get_chat_members(message.chat.id):
-        user = member.user
-        if not user.is_bot and not user.is_deleted:
-            total_members += 1
-    user = message.from_user
     chat = message.chat
-    await client.send_message(LOG_CHANNEL, f"""
-Şarkı Önerme işlemi bildirimi.
+    if not message.reply_to_message:
+        await message.reply_text("🚫 Bir kullanıcıya cevap verin!")
+        return
+    if message.reply_to_message.from_user.id == OWNER_ID:
+        await message.reply_text(f"{random.choice(sarki1)}")
+        return
+    if message.reply_to_message.from_user.id == BOT_ID:
+        await message.reply_text(f"{random.choice(sarki2)}")
+        return
+    
 
-Kullanan : {user.mention} [{user.id}]
-Komut Tipi : Şarkı Öneri
+    atan = message.from_user
+    yiyen = message.reply_to_message.from_user
 
-Grup : {chat.title}
-Grup İD : {chat.id}
+    atan_mesaj = f"[{atan.first_name}](tg://user?id={atan.id})"
+    yiyen_mesaj = f"[{yiyen.first_name}](tg://user?id={yiyen.id})"
 
-Sebep : {message.text}
+    goktug = random.choice(sarkilar)
+    await message.reply_text(
+        goktug.format(atan_mesaj, yiyen_mesaj),
+    )
+
+    await bot.send_message(
+        LOG_CHANNEL,
+        f"""
+👤 Kullanan : [{atan.first_name}](tg://user?id={atan.id})
+💥 Kullanıcı Id : {atan.id}
+🪐 Kullanılan Grup : {chat.title}
+💡 Grup ID : {chat.id}
+◀️ Grup Link : @{chat.username}
+📚 Kullanılan Modül : Şarkı Öneri
 """
- )
-    num = 1
+    ) 
 
-    estimated_time = (total_members // num) * 5
 
-    start_msg = await message.reply(f"""
-👥 __Şarkı önerme Başlıyor..
-⏳ Bir Saniye Şarkıyı Öneriyorum..""")
-    
-    rose_tagger[message.chat.id] = start_msg.id
-    nums = 1
-    usrnum = 0
-    skipped_bots = 0
-    skipped_deleted = 0
-    total_tagged = 0
-    usrtxt = ""
-    
-    async for member in client.get_chat_members(message.chat.id):
-        user = member.user
-        if user.is_bot:
-            skipped_bots += 1
-            continue
-        if user.is_deleted:
-            skipped_deleted += 1
-            continue
-        usrnum += 1
-        total_tagged += 1
-        usrtxt += f"[{random.choice(şarkı)}](tg://user?id={user.id})"
-        if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
-            return
-        if usrnum == nums:
-            await client.send_message(message.chat.id, f"{usrtxt}")
-            usrnum = 0
-            usrtxt = ""
-            await asyncio.sleep(5)
-
-    await client.send_message(message.chat.id, f"""
-👥 Şarkı Önerildi...
-""")   
-     
-       
-         
-           
      #günaydın#
 #_______________#    
 @app.on_message(filters.command("guntag") & filters.group)
