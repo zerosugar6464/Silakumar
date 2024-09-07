@@ -564,7 +564,7 @@ sarkilar = (
    "{},\n\n {}, için şarkı önerdi :\n\n 🎧Sana El Pençe Durmam Emre Fel",
    "{},\n\n {}, için şarkı önerdi :\n\n 🎧Önümüz Yaz Simge",
    "{},\n\n {}, için şarkı önerdi :\n\n 🎧Lan Zeynep Bastık",
-   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Kafamın İçi Ebru Yaşar, Siyam, Zeyd"",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Kafamın İçi Ebru Yaşar, Siyam, Zeyd",
    "{},\n\n {}, için şarkı önerdi :\n\n 🎧Renklensin Reynmen",
    "{},\n\n {}, için şarkı önerdi :\n\n 🎧Söz Verdim Nahide Babashlı",
    "{},\n\n {}, için şarkı önerdi :\n\n 🎧Canın Sağ Olsun Semicenk, Rast",
