@@ -410,7 +410,7 @@ async def chatModeHandler(bot: Client, msg: Message):
         await asyncio.sleep(0.06)  
         
     elif kontrol(["öner","şarkı","sarkı"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(sarki)
+        reply = random.choice(şarkı)
         await asyncio.sleep(0.06)  
         
 
@@ -1289,7 +1289,7 @@ Sebep : {message.text}
             continue
         usrnum += 1
         total_tagged += 1
-        usrtxt += f"[{random.choice(sarki)}](tg://user?id={user.id})"
+        usrtxt += f"[{random.choice(şarkı)}](tg://user?id={user.id})"
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
