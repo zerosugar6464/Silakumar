@@ -549,7 +549,7 @@ s =(
 
 )
 
-sarki = (
+şarkı = (
 
 "🎧**Aradan Çok Yıllar Geçti Tuğçe Kandemir**",
 "🎧**Sana El Pençe Durmam Emre Fel**",
