@@ -2060,9 +2060,6 @@ async def games(c: Client, m: Message):
     elif command == "mani":
         return await m.reply_text(random.choice(mani))
         
-    elif command == "sarki":
-        return await m.reply_text(random.choice(şarkı))
-        
 
 
     elif command == "saka":
