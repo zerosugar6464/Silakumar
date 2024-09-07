@@ -1,6 +1,6 @@
 import random
 
-start_message = """**⚘ Selam {} **
+start_message = """**⚘ Merhaba {} **
 
 **Etiket {} **
 
@@ -9,6 +9,8 @@ start_message = """**⚘ Selam {} **
 »  **Örneğin Doğruluk Mu Cesaret Mi Oynatabilirim.** 
 
 »  **Üyelerinizi Etiketleyerek Sohbete Davet Edebilirim.** 
+
+»  **/sarki Sizlere şarkılar önerebilirim** 
 
 »  **/chatmode ile sohbetinizi canlandırabilirim.** 
 
@@ -26,6 +28,10 @@ tagger_commands = """ ✶ **Etiket Komutları**
 
 » `/etag` **- Emoji ile etiketler.**
 
+» `/igtag` **- iyi geceler mesajları ile etiketler.**
+
+» `/guntag` **- günaydın mesajları ile etiketler.**
+
 » `/btag` **- Bayrak ile etiketler.**
 
 » `/sorutag` **- Sorularla etiketler.**
@@ -34,6 +40,7 @@ tagger_commands = """ ✶ **Etiket Komutları**
 
 » `/stag` **- Sözlerle etiketler.**
 """
+
 
 
 
