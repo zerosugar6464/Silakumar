@@ -2059,6 +2059,9 @@ async def games(c: Client, m: Message):
 
     elif command == "mani":
         return await m.reply_text(random.choice(mani))
+        start_msg = await message.reply(f"""
+👥 __Şarkı önerme Başlıyor..
+⏳ Bir Saniye Şarkıyı Öneriyorum..""")
 
 
     elif command == "saka":
