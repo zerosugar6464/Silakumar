@@ -43,7 +43,6 @@ tagger_commands = """ ✶ **Etiket Komutları**
 
 
 
-
 #ADMİN KOMUTLARI
 adminkom = """❤️‍🔥  **Sahip Komutları :**
 
@@ -548,13 +547,43 @@ bekle = (
 
 )
 
-s =(
-"**/play 🎧Aradan Çok Yıllar Geçti Tuğçe Kandemir**",
-"**/play 🎧Sana El Pençe Durmam Emre Fel**",
 
 
+sarkilar = (
+ "{},\n\n {}, için şarkı önerdi :\n\nMüslüm Gürses - ayrılık",
+ "{},\n\n {}, için şarkı önerdi :\n\n İsmail yk - Allah belanı versin",
+ "{},\n\n {}, için şarkı önerdi :\n\n Güllü - Unut gitsin",
+ "{},\n\n {}, için şarkı önerdi :\n\n ceza - Holocost",
+ "{},\n\n {}, için şarkı önerdi :\n\n İbrahim Tatlıses - Mutlu Ol yeter",
+ "{},\n\n {}, için şarkı önerdi :\n\n İdo - Mavişim",
+ "{},\n\n {}, için şarkı önerdi :\n\n Mahsun Kırmızıgül - Beşminare",
+ "{},\n\n {}, için şarkı önerdi :\n\n Halay - Delilo",
+ "{},\n\n {}, için şarkı önerdi :\n\n Derya uluğ - okyanus",
+ "{},\n\n {}, için şarkı önerdi :\n\n İntizar - Bu senede kahpelik moda",
+  "{},\n\n {}, için şarkı önerdi :\n\n 🎧Aradan Çok Yıllar Geçti Tuğçe Kandemir",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Sana El Pençe Durmam Emre Fel",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Önümüz Yaz Simge",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Lan Zeynep Bastık",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Kafamın İçi Ebru Yaşar, Siyam, Zeyd"",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Renklensin Reynmen",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Söz Verdim Nahide Babashlı",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Canın Sağ Olsun Semicenk, Rast",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Kömür Mabel Matiz",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Tiryakinim Bayhan",
+   "{},\n\n {}, için şarkı önerdi :\n\n 🎧Kehribar Burak Bulut, Ebru Yaşar",
+  
 
+  
 )
+sarki1 = [ 
+ "Yaw sahibime neden Şarkı önereyim.😂",
+ "Sahibime Şarkı Önermem O zaten Kendi Bilir ne dinleyeceğini 🥳",
+]
+sarki2 = [ 
+ "Yaw kendi kendime şarkı önermem ben botum 😁",
+]
+
+
 
 şarkı = (
 
