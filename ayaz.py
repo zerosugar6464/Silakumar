@@ -542,8 +542,8 @@ bekle = (
 )
 
 sarkı =(
-"""/play 🎧**Aradan Çok Yıllar Geçti Tuğçe Kandemir**""",
-"""/play 🎧**Sana El Pençe Durmam Emre Fel**""",
+"""**/play 🎧Aradan Çok Yıllar Geçti Tuğçe Kandemir**""",
+"""**/play 🎧Sana El Pençe Durmam Emre Fel**""",
 
 
 
