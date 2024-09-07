@@ -541,6 +541,14 @@ bekle = (
 
 )
 
+sarkı =(
+"""/play 🎧**Aradan Çok Yıllar Geçti Tuğçe Kandemir**""",
+"""/play 🎧**Sana El Pençe Durmam Emre Fel**""",
+
+
+
+)
+
 şarkı = (
 
 "🎧**Aradan Çok Yıllar Geçti Tuğçe Kandemir**",
