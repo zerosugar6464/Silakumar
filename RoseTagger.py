@@ -279,7 +279,8 @@ async def _start(bot: Client, query: CallbackQuery):
                 ],
                 
                 [
-                    
+                    InlineKeyboardButton(
+                        "❤️‍🔥 Geliştirici", user_id=OWNER_ID
                     ),
                 ]
             ],
