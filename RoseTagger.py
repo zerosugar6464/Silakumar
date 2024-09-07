@@ -1214,97 +1214,98 @@ Sebep : {message.text}
 #___________________#
     #sarkı öner#
  #_______________#
- 
-@app.on_message(filters.command("sarki") & filters.group)
-async def sarki(client, message):
+ @app.on_message(filters.command("sarki", ["/", ""]) & filters.group)
+async def _eros(client: Client, message: Message):
     if is_user_blocked(message.from_user.id):
         await message.reply("Üzgünüm, bu komutu kullanma yetkiniz engellendi. 🚫")
         return
         
-    if message.chat.type == 'private':
-        await message.reply("❗ Bu komutu sadece gruplarda kullanabilirsiniz!")
-        return
+    chatID = message.chat.id
+    statu = []
+    if chatID in statu:
+        return await message.reply("Şarkı Önerme listesi güncelleniyor. Lütfen bekleyiniz..")
 
-    admins = []
-    async for member in client.get_chat_members(message.chat.id, filter=ChatMembersFilter.ADMINISTRATORS):
-        admins.append(member.user.id)
+    async def scrapper(bot: Client, msg: Message):
+        chat_id = msg.chat.id
+        temp = {}
+        try:
+            statu.append(chat_id)
+            async for member in bot.get_chat_members(chat_id, limit=200):
+                member: ChatMember
 
-    if message.from_user.id not in admins:
-        await message.reply("❗ Bu komutu kullanmak için yönetici olmalısınız!")
-        return
+                if member.user.is_bot:
+                    continue
+                if member.user.is_deleted:
+                    continue
 
-    args = message.command
-    if len(args) > 1:
-        msg_content = " ".join(args[1:])
-    elif message.reply_to_message:
-        msg_content = message.reply_to_message.text
-        if msg_content is None:
-            await message.reply("❗ Eski mesajı göremiyorum!")
-            return
+                temp[member.user.id] = member.user
+                await asyncio.sleep(0.05)
+
+            members[chat_id]["members"] = temp
+            members[chat_id]["lastUpdate"] = dt.now()
+            statu.remove(chat_id)
+            return True
+        except Exception as e:
+            print(e)
+            return False
+
+    async def ship_(users: dict):
+        list_ = list(users.keys())
+        random.shuffle(list_)
+
+        member1ID = random.choice(list_)
+        member2ID = random.choice(list_)
+
+        while member1ID == member1ID:
+            member1ID = random.choice(list_)
+
+        member1: User = users[member1ID]
+        member1: User = users[member1ID]
+
+        mention1 = member1.mention if not member1.username else f"@{member1.username}"
+        mention1 = member.mention if not member1.username else f"@{member.username}"
+
+        text = f" Şarkı Önerme Başarılı\n\n{mention1} {random.choice(sarki)} {mention1}\n\n:"
+        return text
+
+    if chatID not in members:
+        members[chatID] = {}
+
+    lastUpdate: dt = members[chatID].get("lastUpdate")
+    if lastUpdate:
+        now = dt.now()
+        diff = now - lastUpdate
+        if diff.seconds > 3600 * 4:
+            msg = await message.reply(
+                "Şarkı Önerme listesi güncelleniyor, lütfen bekleyiniz..."
+            )
+            status = await scrapper(client, message)
+            if status:
+                await msg.delete()
+                text = await ship_(members[chatID]["members"])
+                return await message.reply(text)
+            else:
+                return await msg.edit(
+                    "Bir hata oluştu, lütfen daha sonra tekrar deneyiniz."
+                )
+        else:
+            text = await ship_(members[chatID]["members"])
+            return await message.reply(text)
+
     else:
-        msg_content = ""
+        msg = await message.reply("Şarkı Önerme Listesi Güncelleniyor, lütfen bekleyiniz...")
+        status = await scrapper(client, message)
+        if status:
+            await msg.delete()
+            text = await ship_(members[chatID]["members"])
+            return await message.reply(text)
+        else:
+            return await msg.edit(
+                "Bir hata oluştu, lütfen daha sonra tekrar deneyiniz."
+            )
 
-    total_members = 0
-    async for member in client.get_chat_members(message.chat.id):
-        user = member.user
-        if not user.is_bot and not user.is_deleted:
-            total_members += 1
-    user = message.from_user
-    chat = message.chat
-    await client.send_message(LOG_CHANNEL, f"""
-Şarkı Önerme işlemi bildirimi.
 
-Kullanan : {user.mention} [{user.id}]
-Komut Tipi : Şarkı Öneri
-
-Grup : {chat.title}
-Grup İD : {chat.id}
-
-Sebep : {message.text}
-"""
- )
-    num = 1
-
-    estimated_time = (total_members // num) * 5
-
-    start_msg = await message.reply(f"""
-👥 __Şarkı önerme Başlıyor..
-⏳ Bir Saniye Şarkıyı Öneriyorum..""")
-    
-    rose_tagger[message.chat.id] = start_msg.id
-    nums = 1
-    usrnum = 0
-    skipped_bots = 0
-    skipped_deleted = 0
-    total_tagged = 0
-    usrtxt = ""
-    
-    async for member in client.get_chat_members(message.chat.id):
-        user = member.user
-        if user.is_bot:
-            skipped_bots += 1
-            continue
-        if user.is_deleted:
-            skipped_deleted += 1
-            continue
-        usrnum += 1
-        total_tagged += 1
-        usrtxt += f"[{random.choice(sarki)}](tg://user?id={user.id})"
-        if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
-            return
-        if usrnum == nums:
-            await client.send_message(message.chat.id, f"{usrtxt}")
-            usrnum = 0
-            usrtxt = ""
-            await asyncio.sleep(5)
-
-    await client.send_message(message.chat.id, f"""
-👥 Şarkı Önerildi...
-""")   
-     
-       
-         
-           
+#_______#
      #günaydın#
 #_______________#    
 @app.on_message(filters.command("guntag") & filters.group)
