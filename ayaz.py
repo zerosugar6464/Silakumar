@@ -541,7 +541,7 @@ bekle = (
 
 )
 
-sarki =(
+s =(
 "**/play 🎧Aradan Çok Yıllar Geçti Tuğçe Kandemir**",
 "**/play 🎧Sana El Pençe Durmam Emre Fel**",
 
@@ -549,7 +549,7 @@ sarki =(
 
 )
 
-şarkı = (
+sarki = (
 
 "🎧**Aradan Çok Yıllar Geçti Tuğçe Kandemir**",
 "🎧**Sana El Pençe Durmam Emre Fel**",
