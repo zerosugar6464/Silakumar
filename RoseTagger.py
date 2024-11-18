@@ -388,7 +388,7 @@ async def chatModeHandler(bot: Client, msg: Message):
     reply = None
 
     if text.startswith("kumsal"): # * Mesaj kumsal ile başlıyorsa cevap veriyoruz
-        reply = random.choice(acelya)
+        reply = random.choice(kumsal)
         await asyncio.sleep(0.06)
     
     elif kontrol(["selam", "slm", "sa", "selamlar", "selamm"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -602,7 +602,7 @@ async def chatModeHandler(bot: Client, msg: Message):
         await asyncio.sleep(0.06)          
          
     elif kontrol(["mehmet"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(nediyon)
+        reply = random.choice(mehmet)
         await asyncio.sleep(0.06)  
         
     elif kontrol(["özür"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -650,7 +650,7 @@ async def chatModeHandler(bot: Client, msg: Message):
         await asyncio.sleep(0.06)          
          
     elif kontrol(["mustafa"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(cus)
+        reply = random.choice(mustafa)
         await asyncio.sleep(0.06)  
         
     elif kontrol(["vallaha","valla","vallahi"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
