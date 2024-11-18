@@ -59,8 +59,8 @@ BOT_TOKEN = os.environ.get("TOKEN", "7942461090:AAFYsGUoIe5MgUMFNk9VYOdA9ydGPhfP
 BOT_ID = int(os.environ.get("BOT_ID", "7942461090"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "𝐊𝐔𝐌𝐒𝐀𝐋ꗄ➺™ ")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002256136144"))  
-OWNER_ID = 7663718117  # Sahip hesabın id'si
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002422638645"))  
+OWNER_ID = 6387858072  # Sahip hesabın id'si
 
 
 
@@ -130,17 +130,24 @@ async def start(bot: Client, message: Message):
 📛 **Kullanıcı Adı:** @{message.from_user.username}
 🆔 **Kullanıcı ID:** `{message.from_user.id}`
 """)
-    msg = await message.reply_text("✨ ** ʟᴜ̈ᴛғᴇɴ ʙᴇᴋʟᴇʏɪ̇ɴ ......**")
+    msg = await message.reply_text("✨ ** ʟᴜ̈ᴛғᴇɴ ʙᴇᴋʟᴇʏɪ̇ɴ ..**")
     await asyncio.sleep(2)
     await msg.delete()
     await bot.send_message(
         chat_id,
         start_message.format(message.from_user.mention, BOT_USERNAME),
-        reply_markup=InlineKeyboardMarkup(
+                reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="cvv"),                      
-                ],               
+                    InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
+                ],
+                [
+                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzik"),
+                    InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
+                ],
+                [
+                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
+                ]
             ]
         ),
         disable_web_page_preview=True,
