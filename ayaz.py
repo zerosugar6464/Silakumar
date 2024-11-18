@@ -76,6 +76,8 @@ eglence = """ツ  **Eğlence komutlarım :**
 
 ➫  **/bowling  –  Bowling atar.**
 
+➫  **/oner  –  şarkı önerir.**
+
 ➫  **/para  –  Rastgele bir para atın.**
 
 ➫  **/saka  –  Rastgele bir şaka gönderin.**
@@ -109,13 +111,13 @@ slm = (
 "**Selamm**",  
 )
 
-acelya = (
-"**Efendim Aşk** 🫢",
-"**Beni mi çağırdıın** 🫠",
-"**Efendimm** ❣️",
-"**He** ❤️",
-"**Aa seni gördüğüme mutlu oldum nasılsın?** 🤓",
-"**Ooo naber yaa ?** 🙄",
+kumsal = (
+"**@Ragnarben Efendim baba** 🫢",
+"*@Ragnarben *Beni mi çağırdıın bana** 🫠",
+"**Efendimm baba** ❣️",
+"**o benim babam** ❤️",
+"**Aa seni gördüğüme mutlu oldum baba nasılsın?** 🤓",
+"**@Ragnarben Ooo naber baba yaa ?** 🙄",
 "**Evet benimm** 🫠",
 "**Hahaayt benim buyruuun** ❤️",
 "**Heeevet benim buyruuun**",
@@ -127,7 +129,7 @@ acelya = (
 )
 
 sahip = (
-"@MAD1BOY **Sana sesleniyorlarr**",
+" **@Ragnarben Sana sesleniyorlarr**",
 "**Adamdır** 🌹",
 "**Adamımmmm**",
 "**Sahibime mi sesleniyorsun?**",
@@ -1000,14 +1002,14 @@ seviyormusun = (
 "**Ben de seviyorum**",
 )
 
-nediyon = (
-"**Ne diyorum?**",
-"**Sen ne diyon?**",
-"**Bir şey demiyorum**",
-"**Hiç bir şey**",
-"**Ne diyecem?**",
-"**Asıl sen ne diyon lan?**",
-"**Hiç**",
+Mehmet = (
+"**@Guzelyureklicocuk canommm**",
+"**@Guzelyureklicocuk seni çağırıyor aşkım?**",
+"**@Guzelyureklicocuk Bir şey demiyorum**",
+"**Hiç bir şey demeyin aşkıma**",
+"**ne diye rahatsız ediyorsun kocamı?**",
+"**rahat bırak ?**",
+"**uyuyordur**",
 "**Bende bir şey demiyorum**",
 )
 
@@ -1121,14 +1123,14 @@ hayatım = (
 "**He aşkım**",
 )
 
-cus = (
-"**Cus**",
-"**Cus çok tatlı**",
+Mustafa = (
+"**babam o benim**",
+"**@Ragnarben baba sana sesleniyor**",
 "**Cuss**",
-"**Sana da cuss**",
-"**Cuss çok iyi**",
-"**Oha**",
-"**Cus valla**",
+"**babam da babam**",
+"**adamın dibi**",
+"**Oha baba**",
+"**babamın hakkında konuşmayın**",
 "**Tabi canım**",
 )
 
