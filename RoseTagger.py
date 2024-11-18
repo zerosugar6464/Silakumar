@@ -140,8 +140,9 @@ async def start(bot: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
-                ],
-                
+                     ),
+            InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),  
+                ],                
             ]
         ),
         disable_web_page_preview=True,
