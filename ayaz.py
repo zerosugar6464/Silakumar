@@ -4,7 +4,7 @@ start_message = """**⚘ Merhaba {} **
 
 **Etiket {} **
 
-»  **Görevim Gruplarda Sizleri Birçok Özelliğim İle Eğlendirmek.*Örneğin Doğruluk Mu Cesaret Mi Oynatabilirim.** »  **/sarki Sizle
+»  **Görevim Gruplarda Sizleri Birçok Özelliğim İle Eğlendirmek.*Örneğin Doğruluk Mu Cesaret Mi Oynatabilirim.**
 
 »  **/chatmode ile sohbetinizi canlandırabilirim.** 
 
