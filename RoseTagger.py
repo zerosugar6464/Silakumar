@@ -140,11 +140,14 @@ async def start(bot: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="cvv"),
-                     ),
-          Button.url('💬 𝖣𝖾𝗌𝗍𝖾𝗄', f'https://t.me/kumsalmuzikk')],
+                     ],
+                     [
+                    InlineKeyboardButton(
+                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/Mehmetbeydiyeceksinizzz"
                 ],
                 [
-       Button.url('📢 𝖣𝗎𝗒𝗎𝗋𝗎', f'https://t.me/kumsaldestekkanal')],  
+                  InlineKeyboardButton(
+                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/Mehmetbeydiyeceksinizzz"  
                 ],                
             ]
         ),
