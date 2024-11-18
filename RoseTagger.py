@@ -139,15 +139,7 @@ async def start(bot: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="cvv"),
-                    InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞",
-url=f"https://t.me/Mehmetbeydiyeceksinizzz"
-                  ],
-                  ]
-                 
-                    InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/Mehmetbeydiyeceksinizzz"  
+                    InlineKeyboardButton("📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="cvv"),                      
                 ],               
             ]
         ),
