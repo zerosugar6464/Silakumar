@@ -130,7 +130,7 @@ async def start(bot: Client, message: Message):
 📛 **Kullanıcı Adı:** @{message.from_user.username}
 🆔 **Kullanıcı ID:** `{message.from_user.id}`
 """)
-    msg = await message.reply_text("✨ **Lütfen Bekleyin...**")
+    msg = await message.reply_text("✨ ** ʟᴜ̈ᴛғᴇɴ ʙᴇᴋʟᴇʏɪ̇ɴ ......**")
     await asyncio.sleep(2)
     await msg.delete()
     await bot.send_message(
@@ -139,9 +139,12 @@ async def start(bot: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
+                    InlineKeyboardButton("📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="cvv"),
                      ),
-            InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),  
+          Button.url('💬 𝖣𝖾𝗌𝗍𝖾𝗄', f'https://t.me/kumsalmuzikk')],
+                ],
+                [
+       Button.url('📢 𝖣𝗎𝗒𝗎𝗋𝗎', f'https://t.me/kumsaldestekkanal')],  
                 ],                
             ]
         ),
@@ -158,17 +161,17 @@ async def handler(bot: Client, query: CallbackQuery):
             [
                 [    
                     InlineKeyboardButton(
-                        "🏷️ Tag Komutları", callback_data="tagger"),
+                        "🏷️ 𝖳𝖺𝗀 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋ı", callback_data="tagger"),
                     InlineKeyboardButton(
-                       "🎮 Eğlence Komutları", callback_data="eglence")
+                       "🎮 𝖤ğ𝗅𝖾𝖼𝖾 𝗄𝗈𝗆𝗎𝗍𝗅𝖺𝗋ı", callback_data="eglence")
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚙️ Extra Komutlar", callback_data="extra"),
+                        "⚙️ 𝖤𝗑𝗍𝗋𝖺 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="extra"),
 
                        
                     InlineKeyboardButton(
-                        "❤️‍🔥 Geliştirici Komutları", callback_data="sahip"),
+                        "❤️‍🔥 𝖦𝖾𝗅𝗂ş𝗍𝗂𝗋𝗂𝖼𝗂 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="sahip"),
                         
                 ],
                 [
