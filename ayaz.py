@@ -357,7 +357,7 @@ merhaba = (
 "**merhaba sanada**",
 "**merhaba ayakkabı numaran kaç?**",
 "**merhaba bugün hiç su içtin mi?**",
-"**@mad1boy u tanıyormusun?**",
+"**@Ragnarben u tanıyormusun?**",
 "**Merhaba yenimisin?**",
 "**hoşgelmişsennn**",
 "**Merhaba nerden böyle?**",
@@ -467,7 +467,7 @@ takılıyorum = (
 "**Kiminle?** 🤨",
 "**Tek başıma** 🥴",
 "**Evde takılıyorum** 😁",
-"**@MAD1BOY ile beni güncelliyoruz** 🤓",
+"**@Ragnarben ile beni güncelliyoruz** 🤓",
 
 )
 
@@ -1002,7 +1002,7 @@ seviyormusun = (
 "**Ben de seviyorum**",
 )
 
-Mehmet = (
+mehmet = (
 "**@Guzelyureklicocuk canommm**",
 "**@Guzelyureklicocuk seni çağırıyor aşkım?**",
 "**@Guzelyureklicocuk Bir şey demiyorum**",
@@ -1123,7 +1123,7 @@ hayatım = (
 "**He aşkım**",
 )
 
-Mustafa = (
+mustafa = (
 "**babam o benim**",
 "**@Ragnarben baba sana sesleniyor**",
 "**Cuss**",
