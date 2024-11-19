@@ -143,10 +143,14 @@ async def start(bot: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
+                 ],
+                 [
                     InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
                 ],
                 [
                     InlineKeyboardButton("📢 𝖣𝗎𝗒𝗎𝗋𝗎", url=f"https://t.me/Kumsaldestekkanal"),
+                ],
+                [
                     InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
                 ]
             ]
@@ -284,10 +288,14 @@ async def _start(bot: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
+               ],
+               [
                     InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
                 ],
                 [
-                    InlineKeyboardButton("📢 𝖣𝗎𝗒𝗎𝗋𝗎", url=f"https://t.me/Kumsaldestekkanal"),
+                    InlineKeyboardButton("📢𝖣𝗎𝗒𝗎𝗋𝗎", url=f"https://t.me/Kumsaldestekkanal"),
+                ],
+                [
                     InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
                     ),
                 ]
