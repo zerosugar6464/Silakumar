@@ -685,8 +685,8 @@ elif kontrol(["hazar"], text): # * Selam yazısı metnin içinde varsa cevap ver
         reply = random.choice(vallaha)
         await asyncio.sleep(0.06)   
 
-    elif kontrol(["yo"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(yo)
+    elif kontrol(["beri"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(beri)
         await asyncio.sleep(0.06)   
 
     elif kontrol(["hayırdır"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -697,8 +697,8 @@ elif kontrol(["hazar"], text): # * Selam yazısı metnin içinde varsa cevap ver
         reply = random.choice(of)
         await asyncio.sleep(0.06)         
 
-    elif kontrol(["aynen"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(aynen)
+    elif kontrol(["hazar"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(hazar)
         await asyncio.sleep(0.06)          
 
     elif kontrol(["ağla"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -709,8 +709,8 @@ elif kontrol(["hazar"], text): # * Selam yazısı metnin içinde varsa cevap ver
         reply = random.choice(ağlama)
         await asyncio.sleep(0.06)   
 
-    elif kontrol(["sex","seks"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(sex)
+    elif kontrol(["elif"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(elif)
         await asyncio.sleep(0.06)   
 
     elif kontrol(["evet"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -761,8 +761,8 @@ elif kontrol(["hazar"], text): # * Selam yazısı metnin içinde varsa cevap ver
         reply = random.choice(şimdi)
         await asyncio.sleep(0.06)   
 
-    elif kontrol(["varoş"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(varoş)
+    elif kontrol(["mustafa"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(mustafa)
         await asyncio.sleep(0.06)        
 
     elif kontrol(["arkadaş","arkadas"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
