@@ -92,7 +92,6 @@ extra = """❄️  Extra Komutlarım :
 ➫  **/ping  –  Bot'un ping değerini gösterir.**
 """
 
-
 slm = (
 "**Sen nerdesin ya** 😂",
 "**Selmmm**",
@@ -111,13 +110,13 @@ slm = (
 "**Selamm**",  
 )
 
-kumsal = (
-"**@Ragnarben Efendim baba** 🫢",
-"*@Ragnarben *Beni mi çağırdıın bana** 🫠",
-"**Efendimm baba** ❣️",
-"**o benim babam** ❤️",
-"**Aa seni gördüğüme mutlu oldum baba nasılsın?** 🤓",
-"**@Ragnarben Ooo naber baba yaa ?** 🙄",
+acelya = (
+"**Efendim Aşk** 🫢",
+"**Beni mi çağırdıın** 🫠",
+"**Efendimm** ❣️",
+"**He** ❤️",
+"**Aa seni gördüğüme mutlu oldum nasılsın?** 🤓",
+"**Ooo naber yaa ?** 🙄",
 "**Evet benimm** 🫠",
 "**Hahaayt benim buyruuun** ❤️",
 "**Heeevet benim buyruuun**",
@@ -129,7 +128,7 @@ kumsal = (
 )
 
 sahip = (
-" **@Ragnarben Sana sesleniyorlarr**",
+"@MAD1BOY **Sana sesleniyorlarr**",
 "**Adamdır** 🌹",
 "**Adamımmmm**",
 "**Sahibime mi sesleniyorsun?**",
@@ -152,7 +151,7 @@ daim = (
 "**Daim olsunnnnn**",
 "**Daim olsun** ❤️‍🔥",
 "**Daimm olsun birtanem**",
-"**Amin**",	
+"**Amin**",        
 
 )
 
@@ -271,19 +270,6 @@ sus = (
 "**Kapat beni**😒😒",
 )
 
-elif = (
-"**𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 benim annem**",
-"**o benim annem**",
-"**o benim tek varlığım**🥰",
-"**annemi rahat bırak**😘",
-"**annem de annem?**🤨",
-"**𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 ölürüm annemmmm?**🤔",
-"**anne anne anne?**",
-"**anne nerdesin?**",
-"**anne senin hakkında konuşuyorlar**",
-"**anneeeeee!!**",
-)
-
 renk =(
 "**sana hangi renk lazım?**",
 "**yeşil**",
@@ -370,7 +356,7 @@ merhaba = (
 "**merhaba sanada**",
 "**merhaba ayakkabı numaran kaç?**",
 "**merhaba bugün hiç su içtin mi?**",
-"**@Ragnarben u tanıyormusun?**",
+"**@mad1boy u tanıyormusun?**",
 "**Merhaba yenimisin?**",
 "**hoşgelmişsennn**",
 "**Merhaba nerden böyle?**",
@@ -383,7 +369,7 @@ yok = (
 "**Niye yok**",
 "**Beynin mi yok anlamadım** 😂",
 "**Hııı**",
-"**Ne yok**",	
+"**Ne yok**",        
 "**Yoksa yok**",
 "**hee yok**",
 "**Kahvedemi yok?**🥺",
@@ -480,16 +466,8 @@ takılıyorum = (
 "**Kiminle?** 🤨",
 "**Tek başıma** 🥴",
 "**Evde takılıyorum** 😁",
-"**@Ragnarben ile beni güncelliyoruz** 🤓",
-)
+"**@MAD1BOY ile beni güncelliyoruz** 🤓",
 
-hazar = (
-"**@Hazar_01_34 amcam da amcam** 😂",
-"**@Hazar_01_34 Nerde takılıyorsun amca?** 😏",
-"**@Hazar_01_34 Kiminle? amca** 🤨",
-"**@Hazar_01_34 sen Yokken Tek başıma amca ** 🥴",
-"**@Hazar_01_34 özledim amcaaa** 😁",
-"**@Hazar_01_34 özledim amcaaa** 🤓",
 )
 
 hayır = (
@@ -511,15 +489,9 @@ hayır = (
 "**he sensin hayır**",
 "**hayrın yolu bayır**",
 "**ya heee**",
-)
 
-beri = (
-"**@Beriinizz aşkım da aşkım** 😂",
-"**@Beriinizz Nerde takılıyorsun?** 😏",
-"**@Beriinizz kocam da kocam?** 🤨",
-"**@Beriinizz aşkımın hakkında konuşmayın** 🥴",
-"**@Beriinizz özledim bebeğim** 😁",
-"**@Beriinizz ile beni güncelliyoruz** 🤓",
+
+
 )
 
 nerdesin = (
