@@ -1222,7 +1222,7 @@ ağlama = (
 "**Bizde onları ağlatalım**",
 )
 
-elif = (
+Elif = (
 "**𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 annemm de annemm** 🥰?",
 "**nerden bu güzellik diye soruyorlar annemden tabi**",
 "**annem de annem** 😚",
