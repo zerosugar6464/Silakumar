@@ -392,7 +392,7 @@ async def chatModeHandler(bot: Client, msg: Message):
         else:
             return False
 
-        if msg.chat.id not in chatMode or msg.from_user.is_self:
+    if msg.chat.id not in chatMode or msg.from_user.is_self:
         return
 
     text = lower(msg.text)  # * Mesajı küçük harfe çeviriyoruz
