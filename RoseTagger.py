@@ -429,6 +429,10 @@ async def chatModeHandler(bot: Client, msg: Message):
                  
     elif kontrol(["nasılsın"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(nasılsın)
+        await asyncio.sleep(0.06)    
+
+elif kontrol(["elif"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(Elif)
         await asyncio.sleep(0.06)         
          
     elif kontrol(["tm","tamam","tmm"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
