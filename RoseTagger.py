@@ -140,8 +140,6 @@ async def start(bot: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
-                ],
-                [
                     InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
                  ],
                  [
@@ -285,9 +283,7 @@ async def _start(bot: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
-                ],
-                [
-                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
+                  InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
                ],
                [
                     InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
