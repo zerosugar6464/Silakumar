@@ -677,8 +677,8 @@ elif kontrol(["hazar"], text): # * Selam yazısı metnin içinde varsa cevap ver
         reply = random.choice(hayatım)
         await asyncio.sleep(0.06)          
 
-    elif kontrol(["cus"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(cus)
+    elif kontrol(["baban"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(baban)
         await asyncio.sleep(0.06)  
 
     elif kontrol(["vallaha","valla","vallahi"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
