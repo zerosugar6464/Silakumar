@@ -143,7 +143,7 @@ async def start(bot: Client, message: Message):
                     InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
                  ],
                  [
-                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID"),
+                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
                     InlineKeyboardButton("📢 𝖣𝗎𝗒𝗎𝗋𝗎", url=f"https://t.me/Kumsaldestekkanal"),
                 ],
                 [
