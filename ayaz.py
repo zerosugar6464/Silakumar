@@ -1,6 +1,6 @@
 import random
 
-start_message = """**⚘ Merhaba {} **
+start_message = """**⚘ ᴍᴇʀʜᴀʙᴀ {} **
 
 **ben {} **
 
@@ -92,6 +92,46 @@ extra = """❄️  Extra Komutlarım :
 ➫  **/ping  –  Bot'un ping değerini gösterir.**
 """
 
+#1
+mustafa = (
+"@Ragnarben **Sana sesleniyorlarr**",
+"**babam da babam** 🌹",
+"**o benim babam karışmayın**",
+"**babama mi sesleniyorsun?**",
+)
+
+#2
+mehmet = (
+"@Guzelyureklicocuk **Sana sesleniyorlarr**",
+"**Adamdır** 🌹",
+"**Adamımmmm**",
+"*mehmet benim tek varlığım ?**",
+)
+
+#3
+beri = (
+"@Beriinizz **Sana sesleniyorlarr**",
+"**kocam da kocam** 🌹",
+"**@Beriinizz aşkım**",
+"**berime mi sesleniyorsun?**",
+)
+
+#4
+elif = (
+"𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 **anne Sana sesleniyorlarr**",
+"**annem de annem** 🌹",
+"**annneemmmmmm**",
+"**annemin hakkında konuşmayın?**",
+)
+
+#5
+hazar = (
+"@Hazar_01_34 **amca Sana sesleniyorlarr**",
+"**amcam da amcam** 🌹",
+"**hazar benim amcam**",
+"**amcam iyiki varsın?**",
+)
+
 slm = (
 "**Sen nerdesin ya** 😂",
 "**Selmmm**",
@@ -110,7 +150,7 @@ slm = (
 "**Selamm**",  
 )
 
-acelya = (
+kumsal = (
 "**Efendim Aşk** 🫢",
 "**Beni mi çağırdıın** 🫠",
 "**Efendimm** ❣️",
@@ -128,7 +168,7 @@ acelya = (
 )
 
 sahip = (
-"@MAD1BOY **Sana sesleniyorlarr**",
+"@Ragnarben **baba Sana sesleniyorlarr**",
 "**Adamdır** 🌹",
 "**Adamımmmm**",
 "**Sahibime mi sesleniyorsun?**",
@@ -356,7 +396,7 @@ merhaba = (
 "**merhaba sanada**",
 "**merhaba ayakkabı numaran kaç?**",
 "**merhaba bugün hiç su içtin mi?**",
-"**@mad1boy u tanıyormusun?**",
+"**@Guzelyureklicocuk u tanıyormusun?**",
 "**Merhaba yenimisin?**",
 "**hoşgelmişsennn**",
 "**Merhaba nerden böyle?**",
@@ -466,7 +506,7 @@ takılıyorum = (
 "**Kiminle?** 🤨",
 "**Tek başıma** 🥴",
 "**Evde takılıyorum** 😁",
-"**@MAD1BOY ile beni güncelliyoruz** 🤓",
+"**@Guzelyureklicocuk ile beni güncelliyoruz** 🤓",
 
 )
 
@@ -1122,7 +1162,7 @@ hayatım = (
 "**He aşkım**",
 )
 
-mustafa = (
+baban = (
 "**babam o benim**",
 "**@Ragnarben baba sana sesleniyor**",
 "**Cuss**",
