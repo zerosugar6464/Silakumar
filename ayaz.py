@@ -92,45 +92,6 @@ extra = """❄️  Extra Komutlarım :
 ➫  **/ping  –  Bot'un ping değerini gösterir.**
 """
 
-#1
-mustafa = (
-"@Ragnarben **Sana sesleniyorlarr**",
-"**babam da babam** 🌹",
-"**o benim babam karışmayın**",
-"**babama mi sesleniyorsun?**",
-)
-
-#2
-mehmet = (
-"@Guzelyureklicocuk **Sana sesleniyorlarr**",
-"**Adamdır** 🌹",
-"**Adamımmmm**",
-"*mehmet benim tek varlığım ?**",
-)
-
-#3
-beri = (
-"@Beriinizz **Sana sesleniyorlarr**",
-"**kocam da kocam** 🌹",
-"**@Beriinizz aşkım**",
-"**berime mi sesleniyorsun?**",
-)
-
-#4
-elif = (
-"𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 **anne Sana sesleniyorlarr**",
-"**annem de annem** 🌹",
-"**annneemmmmmm**",
-"**annemin hakkında konuşmayın?**",
-)
-
-#5
-hazar = (
-"@Hazar_01_34 **amca Sana sesleniyorlarr**",
-"**amcam da amcam** 🌹",
-"**hazar benim amcam**",
-"**amcam iyiki varsın?**",
-)
 
 slm = (
 "**Sen nerdesin ya** 😂",
@@ -1197,14 +1158,14 @@ vallaha = (
 "**Bide bayıl ferihaa**",	
 )
 
-yo = (
-"**Sana yo** 😡",
-"**Nasıl yo?**",
-"**Neye yo?**",
-"**Ne demek yo?**",
-"**Yoo**",
-"**Yo banane**",
-"**Yo valla**",
+beri = (
+"**@Beriinizz sana sesleniyorlar** 💅",
+"**@Beriinizz aşığım sana kadın?**",
+"**@Beriinizz dünya güzeli?**",
+"**gurban olurum?**",
+"**@Beriinizz canemmm**",
+"**@Beriinizz birtanemmmm**",
+"**@Beriinizz ömrummm**",
 )
 
 hayırdır = (
@@ -1230,13 +1191,13 @@ of = (
 "**hayır oflama**",
 )
 
-aynen = (
-"**Aynen kardeşim**",
-"**Aynen yaa**",
-"**Ne aynen?**",
-"**Biz kötüyüz aynen** 😁",
-"**Aynen tamam**",
-"**Aynen bencede**",
+hazar = (
+"**amcam da amcam**",
+"**@Hazar_01_34 sana sesleniyorlar amca**",
+"**amacım?**",
+"**o benim amcam** 😁",
+"**@Hazar_01_34 amcaaaa**",
+"**@Hazar_01_34 canım amcam**",
 )
 
 ağla = (
@@ -1261,15 +1222,15 @@ ağlama = (
 "**Bizde onları ağlatalım**",
 )
 
-sex = (
-"**Ne diyorsun lan** 😡?",
-"**Terbiyeli ol**",
-"**Duymamış olayım** 🤨",
-"**Çok sexysin**",
-"**İmana dön kardeşim**",
-"**Sex mi?**",
-"**Çocukların yanında ne diyorsun**",
-"**Ahlaksız** 🤬",
+elif = (
+"**𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 annemm de annemm** 🥰?",
+"**nerden bu güzellik diye soruyorlar annemden tabi**",
+"**annem de annem** 😚",
+"**anneeeeee nerdesin**",
+"**annemin hakkında konuşma İmana dön kardeşim**",
+"**annemcimmmm?**",
+"**ben annemi çok seviyorum **",
+"**o benim herşeyim** 🤭",
 )
 
 evet = ( 
@@ -1412,19 +1373,19 @@ barışalım  = (
 "**Şimdi geldi**",
 )
 
-varoş  = (
-"**Iyy pis varoş**",
-"**Varoş musun sen**",
-"**Ne varoş insansın**",
-"**Uza varoş**",
-"**Varoşa bak be**",
-"**Varoş amk**",
-"**Siktir git varoş**",
-"**Konuşma varoş oç**",
-"**Varoşlar konuşamaz**",
-"**Varoşa benziyor**",
-"**Ben mi varoşum?**",
-"**Kime varoş diyorsun lan sen?**",
+mustafa  = (
+"**babam da babam**",
+"**@Ragnarben Sana sesleniyorlar baba**",
+"**@Ragnarben seni çok seviyorum baba**",
+"**babamdan uzak dur varoş**",
+"**@Ragnarben özledim baba**",
+"**babam elifi çok seviyor**",
+"**@Ragnarben özledim baboş**",
+"**mustafa adamın dibi**",
+"**benim babammmmmmm**",
+"**@Ragnarben baba nerdesin**",
+"**Ben mi canım babam?**",
+"**lan sen kimin babasına diyorsun lan ?**",
 )
 
 arkadaş = (
