@@ -2,7 +2,7 @@ import random
 
 start_message = """**⚘ Merhaba {} **
 
-**Etiket {} **
+**ben {} **
 
 »  **Görevim Gruplarda Sizleri Birçok Özelliğim İle Eğlendirmek.*Örneğin Doğruluk Mu Cesaret Mi Oynatabilirim.**
 
@@ -271,6 +271,19 @@ sus = (
 "**Kapat beni**😒😒",
 )
 
+elif = (
+"**𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 benim annem**",
+"**o benim annem**",
+"**o benim tek varlığım**🥰",
+"**annemi rahat bırak**😘",
+"**annem de annem?**🤨",
+"**𓄂𝐇𝐢𝐫𝐚𝐢 ʸᵃᶰᶤˡᵍᶤ 𝓜 ölürüm annemmmm?**🤔",
+"**anne anne anne?**",
+"**anne nerdesin?**",
+"**anne senin hakkında konuşuyorlar**",
+"**anneeeeee!!**",
+)
+
 renk =(
 "**sana hangi renk lazım?**",
 "**yeşil**",
@@ -468,7 +481,15 @@ takılıyorum = (
 "**Tek başıma** 🥴",
 "**Evde takılıyorum** 😁",
 "**@Ragnarben ile beni güncelliyoruz** 🤓",
+)
 
+hazar = (
+"**@Hazar_01_34 amcam da amcam** 😂",
+"**@Hazar_01_34 Nerde takılıyorsun amca?** 😏",
+"**@Hazar_01_34 Kiminle? amca** 🤨",
+"**@Hazar_01_34 sen Yokken Tek başıma amca ** 🥴",
+"**@Hazar_01_34 özledim amcaaa** 😁",
+"**@Hazar_01_34 özledim amcaaa** 🤓",
 )
 
 hayır = (
@@ -490,9 +511,15 @@ hayır = (
 "**he sensin hayır**",
 "**hayrın yolu bayır**",
 "**ya heee**",
+)
 
-
-
+beri = (
+"**@Beriinizz aşkım da aşkım** 😂",
+"**@Beriinizz Nerde takılıyorsun?** 😏",
+"**@Beriinizz kocam da kocam?** 🤨",
+"**@Beriinizz aşkımın hakkında konuşmayın** 🥴",
+"**@Beriinizz özledim bebeğim** 😁",
+"**@Beriinizz ile beni güncelliyoruz** 🤓",
 )
 
 nerdesin = (
