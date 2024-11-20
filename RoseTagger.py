@@ -2489,9 +2489,7 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-@Client.on_message(command(["bul"]))
-def bul(client, message):
-
+@app.on_message(filters.command("bul") & filters.group)
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
@@ -2550,8 +2548,7 @@ def bul(client, message):
     except Exception as e:
         print(e)
 
-@Client.on_message(
-    command(["vbul", "vsong"]) & ~filters.edited
+@app.on_message(filters.command("vbul") & filters.group)
 )
 async def vsong(client, message):
     ydl_opts = {
