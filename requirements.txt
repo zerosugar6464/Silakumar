@@ -1,3 +1,13 @@
+ffmpeg-python
+Pillow==9.5.0
+ujson
+git+https://github.com/MehmetAtes21/Loading.git
+wget 
+search_engine_parser
+python-arq
+youtube_dl
+youtube_search_python 
+py-tgcalls==0.9.7
 pyrogram
 python-dotenv
 motor
