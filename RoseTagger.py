@@ -17,11 +17,6 @@ from typing import Union
 from random import shuffle
 
 #2 deneme
-import aiofiles
-import requests
-import aiohttp
-import yt_dlp
-import wget
 
 from typing import List, Tuple, Union
 import requests
