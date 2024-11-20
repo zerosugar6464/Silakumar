@@ -17,7 +17,8 @@ from typing import Union
 from random import shuffle
 
 #2 deneme
-
+from youtube_search import YoutubeSearch
+from yt_dlp import YoutubeDL
 import aiofiles
 import requests
 import aiohttp
