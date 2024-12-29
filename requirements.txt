@@ -12,7 +12,6 @@ motor
 pillow
 aiohttp
 aiofiles
-requests
 pyromod
 pymongo
 psutil
