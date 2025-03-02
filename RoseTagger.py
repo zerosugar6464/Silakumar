@@ -55,13 +55,13 @@ LOGGER = logging.getLogger(__name__)
 
 API_ID = int(os.environ.get("API_ID", "28217326"))
 API_HASH = os.environ.get("API_HASH", "4800b862b4094e96f42a0b5dc2a558f8")
-BOT_TOKEN = os.environ.get("TOKEN", "7942461090:AAFYsGUoIe5MgUMFNk9VYOdA9ydGPhfP6JM")  
+BOT_TOKEN = os.environ.get("TOKEN", "7336757348:AAGiZaX7vKMKJR59zN8iJeiO_iFjIKN4pEM")  
 
-BOT_ID = int(os.environ.get("BOT_ID", "7942461090"))  
+BOT_ID = int(os.environ.get("BOT_ID", "7336757348"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "𝐊𝐔𝐌𝐒𝐀𝐋ꗄ➺™ ")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002256136144"))  
-OWNER_ID = 6387858072  # Sahip hesabın id'si
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002349741708"))  
+OWNER_ID = 7525624006  # Sahip hesabın id'si
 
 
 
@@ -141,11 +141,11 @@ async def start(bot: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
-                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/kumsalmuzikk"),
+                    InlineKeyboardButton("🗯 Destek", url=f"https://t.me/yangazlaryeniden"),
                  ],
                  [
-                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
-                    InlineKeyboardButton("📢 𝖣𝗎𝗒𝗎𝗋𝗎", url=f"https://t.me/Kumsaldestekkanal"),
+                    InlineKeyboardButton("🔮 Kurucu ", user_id=OWNER_ID),
+                    InlineKeyboardButton("📢 𝖣𝗎𝗒𝗎𝗋𝗎", url=f"https://t.me/the_team_kumsal"),
                 ],
                 [
                     InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
