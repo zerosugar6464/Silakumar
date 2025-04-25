@@ -1,3 +1,4 @@
+pydantic==2.3.0
 cachetools==5.3.1
 aiofiles
 pyrogram==2.0.106
