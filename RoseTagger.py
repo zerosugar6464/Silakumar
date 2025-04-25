@@ -31,10 +31,10 @@ from datetime import datetime, timedelta
 
 #-------------------------------------------------------------------#
 
-BOT_ID = 7090522217
-OWNER_ID = 5901320319
-WINNERS = [7242000752] #Sürekli Kazanan
-LOG_GROUP_ID = -1002182187594
+BOT_ID = "7535452533"
+OWNER_ID = "7989065012"
+WINNERS = [7989065012] #Sürekli Kazanan
+LOG_GROUP_ID = "-1002349741708"
 
 
 #-------------------------------------------------------------------#
@@ -85,9 +85,9 @@ komutlar = """
 """
 
 #-------------------------------------------------------------------#
-API_ID = 24054192
+API_ID = "24054192"
 API_HASH = "ed9a8a61a1b4a1ad0915cbe87ba490ed"
-BOT_TOKEN = "7090522217:AAHl4mkav_faEElKDk3KlT4L7EtbdepYyjE"
+BOT_TOKEN = "7535452533:AAE9Ow8iwSMUZkymITQrjq6DA2vjEIwL9dE"
 
 
 #-------------------------------------------------------------------#
@@ -227,11 +227,11 @@ async def start(bot: Client, message: Message):
                     InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
                 ],
                 [
-                    InlineKeyboardButton("🗯 Kanal", url=f"https://t.me/DelularSohbet"),
-                    InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/Casino_Cash_Money_Bot?startgroup=a"),
+                    InlineKeyboardButton("🗯 Kanal", url=f"https://t.me/the_team_kumsal"),
+                    InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"http://t.me/Silakumarbot?startgroup=a"),
                 ],
                 [
-                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
+                    InlineKeyboardButton("❤️‍🔥 Kurucu", user_id=OWNER_ID),
                 ]
             ]
         ),
@@ -271,16 +271,16 @@ async def _start(bot: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗯 Kanal", url=f"https://t.me/DelularSohbet"
+                        "🗯 Kanal", url=f"https://t.me/the_team_kumsal"
                     ),
 
                     InlineKeyboardButton(
-                        "➕ Beni Grubuna Ekle" , url=f"https://t.me/Casino_Cash_Money_Bot?startgroup=a"
+                        "➕ Beni Grubuna Ekle" , url=f"https://t.me/Silakumarbot?startgroup=a"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "❤️‍🔥 Geliştirici", user_id=OWNER_ID
+                        "❤️‍🔥 kurucu", user_id=OWNER_ID
                     ),
                 ]
             ],
